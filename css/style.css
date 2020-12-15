@@ -1,0 +1,186 @@
+/*
+    style.css
+
+    This is the page that will have all the CSS for our project site.
+*/
+
+
+/* ========================================================= */
+/*  IMPORTS for fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+/* ========================================================= */
+/*  Page Level Style Rules */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.text-white {
+    color: #F7F5FB !important;
+}
+
+.text-black {
+    color: #000000 !important;
+}
+
+/* --------------------------------------------------------- */
+/* body styles */
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --------------------------------------------------------- */
+/*  Container and Spacer Rules */
+
+.container-spacing {
+    padding: 3em;
+    /*adds padding for fixed navbar */
+}
+
+.text-spacing {
+    padding: 0.25em;
+    /* adds padding for bg colors on heading tags */
+}
+
+.section-spacing {
+    padding: 1.0em;
+    /* adds padding to all the elements in the section */
+}
+
+
+/* --------------------------------------------------------- */
+/* Color Rules */
+
+body {
+    background-color: #086788;
+}
+
+.bg-white {
+    background-color: #f5fffa;
+
+}
+
+.bg-black {
+    background-color: #000000;
+
+}
+
+.bg-beige {
+    background-color: #f5f5dc;
+
+}
+
+
+.bg-green {
+    background-color: #29E7CD;
+
+}
+
+/* --------------------------------------------------------- */
+/* Social Media Links */
+
+/* size the social media icons in the footer */
+
+.footer-social a {
+    color: white;
+    font-size: 1.5em;
+}
+
+/* ========================================================= */
+/* Extending BS Styling Rules */
+
+.checked {
+    color: orange;
+}
+
+#carouselExampleCaptions.carousel.slide {
+    width: 100%; 
+    max-width: 800px; !important
+}
+
+#CExampleCaptions.carousel.slide {
+    width: 100%; 
+    max-width: 800px; !important
+}
+
+/* ========================================================= */
+/* Navbar */
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #ffffff;
+}
+
+.navbar .navbar-text {
+    color: #000000;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.navbar .navbar-toggle {
+    border-color: #000000;
+}
+
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #000000;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #000000;
+}
+
+.navbar .navbar-link {
+    color: #000000;
+}
+
+.navbar .navbar-link:hover {
+    color: #ffffff;
+}

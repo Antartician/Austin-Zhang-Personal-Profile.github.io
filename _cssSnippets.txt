@@ -1,0 +1,166 @@
+
+CSS Snippets v5.0 -  12.1.20
+
+Here are some useful CSS snippets for modifing BS elements
+Read the comments carefully and use these in your CSS as needed
+
+
+/* --------------------------------------------------------- */
+/* Carousel
+    1.  caption position
+    2.  control icon colors 
+*/
+
+/* Carousel Caption - Adjust the position */
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Usually just change the position relative to the bottom */
+.carousel-caption {
+    bottom: 33%;
+}
+
+/* Carousel Icons - Adjust the color of the control icons
+    Change the fff (the #code) of the fill='%23fff' (leave the %23 part)
+*/
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+/* ========================================================= */
+
+/* Navbar Style  */
+
+.navbar {
+    margin-bottom: 0;
+    color: #FFFFFA !important;
+    background-color: #6096BA;
+    z-index: 9999;
+    border: 0;
+    font-size: 1em !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #FFFFFA !important;
+    background-color: #6096BA !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #6096BA !important;
+    background-color: #FFFFFA !important;
+}
+
+.navbar-toggler {
+    border-color: #FFFFFA;
+}
+
+/* Hamburger - Change the color of the nav bar hamburger
+    get the rbg() color and change this part:  rgba(255,255,250, 1)
+*/
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,250, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* ========================================================= */
+
+/* Button Styles */
+
+.btn-custom {
+    color: #FFFFFA !important;
+    background-color: #6096BA !important;
+    border-color: transparent;
+}
+
+.btn-start {
+    color: #FFFFFA !important;
+    background-color: #6096BA !important;
+    border-color: transparent;
+    font-size: 3em;
+}
+
+
+/* ========================================================= */
+/* Card Styles */
+
+/* Change the bg and font colors for cards */
+
+.card-header {
+    background-color: #6096BA !important;
+    color: #FFFFFA !important;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.card-body {
+    background-color: #D6D5B3 !important;
+    color: #000103 !important;
+    border-top: 1px solid #ddd !important;
+}
+
+.card-footer {
+    background-color: rgba( 214, 213, 179, 0.8) !important;
+    color: #000103 !important;
+    border-top: 1px solid #ddd !important;
+}
+
+
+/* ========================================================= */
+/* Tab Styles */
+
+.nav-tabs {
+    font-size: 1.em !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 0.2em;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nav-tabs li a {
+    color: #FFFFFA;
+    !important;
+    background-color: #6096BA !important;
+}
+
+.tab-content {
+    background-color: #FFFFFA;
+}
+
+.nav-tabs li a:hover,
+.nav-tabs li.active a {
+    color: #6096BA !important;
+    background-color: #FFFFFA !important;
+}
+
+
+/* ========================================================= */
+/* EMDEDS */
+
+/* --------------------------------------------------------- */
+/* Google Map sizing */
+
+.gmap-iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
